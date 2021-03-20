@@ -1,0 +1,196 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Ovo', sans-serif;
+}
+
+header {
+	margin: 0;
+}
+
+.banner {
+	margin: 0;
+	height: 100%;
+	/*width: 100%;*/
+	padding: 400px;
+	background-image: linear-gradient(rgb(255 255 255 / 30%), rgb(226 226 226 / 30%)),url('Imagenes/logos/logojulus2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+	box-shadow: 2px 5px 9px 3px #424141;
+	}
+
+/*.banner h1, .banner p {
+	text-shadow: -4px 3px 7px #989797;
+	color: white;
+	text-align: left;
+}*/
+
+.barra {
+	display: unset;
+}
+
+.barra-navegacion {
+
+	box-shadow: inset -1px 4px 6px 0px #ccc6c6;
+	background: linear-gradient(1deg, rgba(245,212,243,255), #b8b6e5 90%);
+	font-family: 'Ovo', sans-serif;
+	position: sticky;
+	top: 0px;
+	z-index: 100;
+	height: 65px;
+}
+
+
+.barra-navegacion__lista {
+	padding-left: 0;
+	margin-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	list-style: none;
+	position: absolute;
+	top: -10px;
+}
+
+.barra-navegacion__item {
+	display: inline-block;
+
+
+}
+
+.barra-navegacion__link {
+
+	text-decoration: none;
+	padding: 10px 50px;
+	/*padding-top: 20px;
+	padding-bottom: 15px;*/
+	color: black;
+	display: block;
+	transition: background-color 0.5s;
+}
+
+.barra-navegacion__link:hover {
+	background-color: grey;
+	box-shadow: inset -1px 4px 6px 0px #424141;
+	color: white;
+	
+}
+.barra-navegacion__logo{
+	display: inline-block;
+	position: relative;
+	top: 13px;
+}
+
+.barra-navegacion__imagen {
+	box-sizing: content-box;
+	width: 55px;
+	height: 60px;
+	box-shadow: 2px 2px 2px grey;
+	object-fit: cover;
+}
+
+
+.fondo {
+	margin-top: 0;
+	background-color: #b8b6e5;
+	padding: 10px;
+	
+}
+
+.container-img {
+	width: 100%;
+	position: relative;
+}
+
+.imagen {
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+	object-position: center;
+	transition: object-position 2s;
+}
+
+.imagen:hover {
+	object-position: top;
+}
+
+.container-img__descripcion {
+	position: absolute;
+	height: 150px;
+	bottom: 30px;
+	left: 30px;
+	padding-right: 20px;
+	padding-left: 20px; 
+	background-color: rgba(255, 255, 255, 0.7);
+	text-shadow: 
+}
+
+.container-img__descripcion h1 {
+
+}
+
+.container-img__descripcion p {
+	color: black;
+	font-size: 1.5em;
+	text-indent: 1.5em;
+}
+
+.seccion-inicio{
+	text-align: center;
+}
+ .inicio {
+ 	display: inline-block;
+ 	
+ }
+
+
+.seccion-inicio__roll {
+	background-image: url(Imagenes/roll2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 435px;
+	height: 500px;
+	padding-right: 5px;
+	filter: grayscale(60%);
+	transition: filter 0.5s;
+	box-shadow: 0px 19px 10px 3px #3e3e3e;
+}
+
+.seccion-inicio__roll:hover {
+	filter: grayscale(0%);
+}
+
+
+
+.seccion-inicio__trenza {
+	background-image: url(Imagenes/buclescard.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 435px;
+	height: 500px;
+		filter: grayscale(60%);
+	transition: filter 0.5s;
+	box-shadow: 0px 19px 10px 3px #3e3e3e;
+}
+
+.seccion-inicio__trenza:hover {
+	filter: grayscale(0%);
+}
+.seccion-inicio__bucle {
+	background-image: url(Imagenes/trenza.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 436px;
+	height: 500px;
+		filter: grayscale(60%);
+	transition: filter 0.5s;
+	box-shadow: 0px 19px 10px 3px #3e3e3e;
+
+}
+
+.seccion-inicio__bucle:hover {
+	filter: grayscale(0%);
+}
